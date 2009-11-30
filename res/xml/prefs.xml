@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+			
+	<ListPreference
+		android:title="@string/pref_scale_factor"
+		android:key="scaleFactor"
+		android:defaultValue="1.0"
+		android:entries="@array/scale_factor_entries"
+		android:entryValues="@array/scale_factor_values" android:summary="@string/prefsummary_scale_factor"/>
+		
+	<ListPreference
+		android:title="@string/pref_point_quality"
+		android:key="pointQuality"
+		android:defaultValue="1.0"
+		android:entries="@array/point_quality_entries"
+		android:entryValues="@array/point_quality_values" android:summary="@string/prefsummary_point_quality"/>
+
+	<CheckBoxPreference
+		android:title="@string/pref_intro_animations"
+		android:key="introAnimations"
+		android:defaultValue="true" android:summary="@string/prefsummary_intro_animations"/>
+		
+	<CheckBoxPreference
+		android:title="@string/pref_invert_colors"
+		android:key="invertColors"
+		android:defaultValue="false" android:summary="@string/prefsummary_invert_colors"/>
+		
+	<CheckBoxPreference
+		android:title="@string/pref_core_focus"
+		android:key="focusCore"
+		android:defaultValue="false" android:summary="@string/prefsummary_core_focus"/>
+		
+	<CheckBoxPreference
+		android:title="@string/pref_supersine"
+		android:key="supersine"
+		android:defaultValue="false" android:summary="@string/prefsummary_supersine"/>
+		
+	<CheckBoxPreference
+		android:title="@string/pref_reconfigure_self"
+		android:key="reconfigureSelf"
+		android:defaultValue="false" android:summary="@string/prefsummary_reconfigure_self"/>
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string-array name="scale_factor_entries">
+		<item>50% (effortless)</item>
+		<item>75% (quick)</item>
+		<item>100% (screen resolution)</item>
+		<item>150% (wallpaper)</item>
+		<item>200% (archival)</item>
+	</string-array>
+	
+	<string-array name="scale_factor_values">
+		<item>0.5</item>
+		<item>0.75</item>
+		<item>1.0</item>
+		<item>1.5</item>
+		<item>2.0</item>
+	</string-array>
+
+	<string-array name="point_quality_entries">
+		<item>50% (gritty)</item>
+		<item>75% (quick)</item>
+		<item>100% (standard)</item>
+		<item>150% (snooty)</item>
+		<item>200% (museum quality)</item>
+	</string-array>
+	
+	<string-array name="point_quality_values">
+		<item>0.5</item>
+		<item>0.75</item>
+		<item>1.0</item>
+		<item>1.5</item>
+		<item>2.0</item>
+	</string-array>
+</resources>

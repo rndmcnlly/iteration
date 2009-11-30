@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Iteration</string>
+<string name="app_desc">&lt;b&gt;Iteration&lt;/b&gt; is an experiment with iterated function systems that produces sublime visual figures at the touch of a finger.</string>
+<string name="save_button">Save to gallery</string>
+<string name="save_failed">Failed to save.  No memory card?</string>
+<string name="donate_button">Donate</string>
+<string name="contact_button">Contact artist</string>
+<string name="usage_toast">Click the trackball, d-pad center or camera button for a new variation. Relax.</string>
+<string name="saving">saving...</string>
+<string name="preferences">Preferences</string>
+
+<string name="pref_intro_animations">Fly-in animation</string>
+<string name="prefsummary_intro_animations">Rotate and scale the canvas for the first few moments of rendering.</string>
+<string name="pref_scale_factor">Canvas scale factor</string>
+<string name="prefsummary_scale_factor">Trade-off between live rendering speed and image resolution when saving to gallery.</string>
+<string name="pref_point_quality">Point quality</string>
+<string name="prefsummary_point_quality">Adjust the brightness of the points as they are plotted.</string>
+<string name="pref_invert_colors">Invert colors</string>
+<string name="prefsummary_invert_colors">Start from a white canvas and accumulate ink.</string>
+<string name="pref_core_focus">Focus on core</string>
+<string name="prefsummary_core_focus">Zoom in on the center of the figure.</string>
+<string name="pref_supersine">Sophistication</string>
+<string name="prefsummary_supersine">Use a different transfer function.</string>
+<string name="pref_reconfigure_self">Reconfigure Self</string>
+<string name="prefsummary_reconfigure_self">Continually show new images automatically (slideshow).</string>
+</resources>
